@@ -1,24 +1,28 @@
-export default function G6Page() {
+export default function G6Learning() {
   return (
-    <main style={{ padding: "40px 20px", fontFamily: "sans-serif", maxWidth: "900px", margin: "0 auto" }}>
-      <div style={{ background: "#ffffff", padding: "30px", borderRadius: "12px", boxShadow: "0 4px 12px rgba(0,0,0,0.05)", marginBottom: "30px" }}>
-        <h1 style={{ color: "#2563eb", marginTop: 0 }}>Grade 6 (G6) Learning Area</h1>
-        <p style={{ color: "#64748b", fontSize: "16px" }}>
-          Welcome to the G6 Mathematics and school subjects hub. Choose a category below to start learning.
+    <main style={{ padding: "30px 16px", fontFamily: "sans-serif", maxWidth: "900px", margin: "0 auto" }}>
+      <div style={{ background: "#2563eb", color: "#fff", padding: "30px", borderRadius: "16px", marginBottom: "25px" }}>
+        <h1 style={{ fontSize: "24px", margin: "0 0 10px 0" }}>📖 Grade 6 Learning Hub</h1>
+        <p style={{ fontSize: "15px", margin: 0, opacity: 0.9 }}>
+          Access mathematics lessons, chapter notes, practice exercises, and quizzes designed for Grade 6 students.
         </p>
       </div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "20px" }}>
-        <div style={{ background: "#ffffff", padding: "20px", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
-          <h3 style={{ color: "#1e293b", marginTop: 0 }}>📚 Lessons & Notes</h3>
-          <p style={{ color: "#64748b", fontSize: "14px" }}>Access chapter-by-chapter mathematics lessons and detailed notes.</p>
+      <h2 style={{ color: "#1e293b", fontSize: "18px", marginBottom: "15px" }}>📚 Grade 6 Subjects & Chapters</h2>
+
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "15px" }}>
+        <div style={{ background: "#ffffff", padding: "20px", borderRadius: "12px", border: "1px solid #e2e8f0" }}>
+          <h3 style={{ color: "#2563eb", marginTop: 0, marginBottom: "8px" }}>Mathematics</h3>
+          <p style={{ color: "#64748b", fontSize: "14px", margin: "0 0 12px 0" }}>Fractions, Decimals, Basic Algebra, and Geometry.</p>
+          <span style={{ background: "#dbeafe", color: "#1d4ed8", padding: "4px 10px", borderRadius: "6px", fontSize: "12px", fontWeight: "bold" }}>Active Lessons</span>
         </div>
 
-        <div style={{ background: "#ffffff", padding: "20px", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
-          <h3 style={{ color: "#1e293b", marginTop: 0 }}>✍️ Practice & Quizzes</h3>
-          <p style={{ color: "#64748b", fontSize: "14px" }}>Test your skills with interactive exercises and weekly quizzes.</p>
+        <div style={{ background: "#ffffff", padding: "20px", borderRadius: "12px", border: "1px solid #e2e8f0" }}>
+          <h3 style={{ color: "#2563eb", marginTop: 0, marginBottom: "8px" }}>English</h3>
+          <p style={{ color: "#64748b", fontSize: "14px", margin: "0 0 12px 0" }}>Reading comprehension, grammar, and vocabulary building.</p>
+          <span style={{ background: "#dbeafe", color: "#1d4ed8", padding: "4px 10px", borderRadius: "6px", fontSize: "12px", fontWeight: "bold" }}>Active Lessons</span>
         </div>
       </div>
     </main>
   );
-  }
+}
